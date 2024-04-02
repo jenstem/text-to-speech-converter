@@ -2,14 +2,12 @@ from gtts import gTTS
 import os
 
 
-text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
-output = gTTS(text=text, lang='en', slow=False)
-output.save("output.mp3")
+text = open('converter.txt', 'r').read()
 
 
-# text = "Trois tortues trottaient sur trois trottoirs tres etroits."
-# output = gTTS(text=text, lang='fr', slow=False)
-# output.save("output.mp3")
+language = 'en'
 
 
-os.system("afplay output.mp3")
+output = gTTS(text=text, lang=language, slow=False)
+output.save('fileoutput.mp3')
+os.system("afplay fileoutput.mp3")
