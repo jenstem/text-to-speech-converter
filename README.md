@@ -63,7 +63,7 @@ Run the app:
 <a id='screenshots'></a>
 ## Screenshots/Gifs:
 
-![](https://github.com/jenstem/text-to-speech-converter/blob/main/converterimg.png) <br>
+![](https://github.com/jenstem/text-to-speech-converter/blob/main/converter-image.png) <br>
 *This is a screenshot of how the Tkinter window looks*
 
 <a id='contact'></a>
