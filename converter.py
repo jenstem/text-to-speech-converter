@@ -11,6 +11,13 @@ canvas.pack()
 
 
 def convert():
+    """
+    Converts text input from a user interface into speech and plays it back.
+
+    This function retrieves text from an entry widget, converts it to speech using
+    the gTTS library, saves the output as an MP3 file, and plays the audio file
+    using the system's audio player.
+    """
     text = entry.get()
     language = 'en'
     output = gTTS(text=text, lang=language, slow=False)
